@@ -2,7 +2,7 @@
  * @name		jQuery GoLive Plugin
  * @author		Jason St-Cyr
  * @version 	1.0
- * @url			http://theagilecoder.wordpress.com
+ * @url			https://github.com/jst-cyr/GoLiveCountdown
  *
  * This module is used for a go-live countdown.  Allows for previewing the two iframes, toggling visibility,
  * and refreshing the contents of the iframe at the specified refresh rate.

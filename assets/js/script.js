@@ -29,10 +29,10 @@ $(function(){
 	//Number of milliseconds between refreshes of display
 	var siteRefreshRate = 20000;
 
-	//Initialize visibility
-	$("#newsite").hide();
-	$("#livesite").show();
+	//Initialize visibility. Refresh will toggle, so need to set to opposite of desired initial load.
+	$("#livesite").hide();
+	$("#newsite").show();
 
 	//Start the GoLive refresher	
-	$("#newsite").refreshFrames(siteRefreshRate);
+	$().refreshFrames(siteRefreshRate);
 });
